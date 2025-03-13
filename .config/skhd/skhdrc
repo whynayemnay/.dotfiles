@@ -1,0 +1,5 @@
+ctrl - o : yabai -m config focus_follows_mouse autofocus
+ctrl - p : yabai -m config focus_follows_mouse off
+
+alt - right : yabai -m space --focus next
+alt - left : yabai -m space --focus prev
