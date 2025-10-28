@@ -114,3 +114,4 @@ if [ -f '/Users/kirilsprihodjko/google-cloud-sdk/completion.zsh.inc' ]; then . '
 
 export PATH="/opt/homebrew/bin:$PATH"
 alias config='/usr/bin/git --git-dir=/Users/kirilsprihodjko/.dotfiles/ --work-tree=/Users/kirilsprihodjko'
+export PATH="$HOME/bin:$PATH"
