@@ -9,7 +9,7 @@ local appBindings = {
     { key = "P", appName = "com.apple.Music" },
     -- { key = "F", appName = "app.zen-browser.zen" },
     { key = "D", appName = "com.hnc.Discord" },
-    { key = "O", appName = "com.apple.Notes" },
+    { key = "O", appName = "md.obsidian" },
     { key = "K", appName = "com.apple.iCal" },
     { key = "E", appName = "dev.zed.Zed" },
     -- { key = "E", appName = "org.gnu.Emacs" },

@@ -1,0 +1,97 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "disable_ai": false,
+  "agent": {
+    "default_profile": "write",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-5"
+    },
+    "model_parameters": []
+  },
+  "agent_servers": {},
+  "git_panel": {
+    "dock": "left"
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "restore_on_startup": "last_workspace",
+  "languages": {
+    "Go": {
+      "show_edit_predictions": false
+    },
+    "Python": {
+      "language_servers": ["basedpyright", "!pyright"]
+    }
+  },
+  "vim": {
+    "toggle_relative_line_numbers": true,
+    "highlight_on_yank_duration": 200
+  },
+  "inlay_hints": {
+    "enabled": false
+  },
+  "tab_bar": {
+    "show": true
+  },
+  // Soft-wrap and rulers
+  "soft_wrap": "none", // none, editor_width, preferred_line_length, bounded
+  "preferred_line_length": 80, // Column to soft-wrap
+  "wrap_guides": [], // Where to position wrap_guides (character counts)
+  "show_wrap_guides": true, // enable wrap guide line
+  "minimum_contrast_for_highlights": 45.0,
+  "selection_highlight": true,
+  "cursor_blink": false,
+  "agent_ui_font_size": 18.0,
+  "ui_font_weight": 400.0,
+  "ui_font_family": ".SystemUIFont",
+  "diagnostics": {
+    "button": true,
+    "inline": {
+      "enabled": true,
+      "max_severity": null // same values as the `diagnostics_max_severity` from the editor settings
+    }
+  },
+  "zoomed_padding": true,
+  "buffer_font_weight": 400.0,
+  "buffer_font_family": "JetBrainsMonoNL Nerd Font",
+  // "icon_theme": "Catppuccin Latte",
+  "project_panel": {
+    "dock": "left"
+  },
+  "title_bar": {
+    "show_menus": true,
+    "show_sign_in": true,
+    "show_user_picture": false,
+    "show_onboarding_banner": true,
+    "show_project_items": true,
+    "show_branch_name": true,
+    "show_branch_icon": false
+  },
+  "vim_mode": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 18.0,
+  "buffer_font_size": 17.0,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "One Dark"
+  },
+  "indent_guides": {
+    "enabled": false
+  }
+}
