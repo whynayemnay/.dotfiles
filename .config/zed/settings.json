@@ -7,9 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "show_edit_predictions": true,
+  "edit_predictions": {
+    "mode": "subtle",
+    "disabled_globs": []
+  },
   "disable_ai": false,
   "agent": {
-    "default_profile": "write",
+    "default_profile": "ask",
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4-5"
@@ -28,7 +33,7 @@
   "restore_on_startup": "last_workspace",
   "languages": {
     "Go": {
-      "show_edit_predictions": false
+      "show_edit_predictions": true
     },
     "Python": {
       "language_servers": ["basedpyright", "!pyright"]

@@ -18,12 +18,12 @@
       // "j k": "vim::NormalBefore"
     }
   },
-  {
-    "context": "(Editor && showing_completions)",
-    "bindings": {
-      "ctrl-z": "editor::ConfirmCompletion"
-    }
-  },
+  // {
+  //   "context": "(Editor && showing_completions)",
+  //   "bindings": {
+  //     "ctrl-z": "editor::ConfirmCompletion"
+  //   }
+  // },
   // {
   //   "context": "Editor",
   //   "bindings": {

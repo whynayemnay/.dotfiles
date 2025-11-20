@@ -7,7 +7,7 @@ local appBindings = {
     -- { key = "V", appName = "com.microsoft.VSCode" },
     { key = "G", appName = "com.openai.chat" },
     { key = "P", appName = "com.apple.Music" },
-    -- { key = "F", appName = "app.zen-browser.zen" },
+    { key = "F", appName = "org.mozilla.firefox" },
     { key = "D", appName = "com.hnc.Discord" },
     { key = "O", appName = "md.obsidian" },
     { key = "K", appName = "com.apple.iCal" },
